@@ -34,4 +34,4 @@ if __name__ == '__main__':
             f.write(json.dumps(traffic_data))
             f.write(os.linesep)
 
-    print json.dumps(mt.fetch(), indent=4)
+            logger.info("Success!")
